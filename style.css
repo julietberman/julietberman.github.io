@@ -1,0 +1,108 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+body {
+  padding: 10px 30px;
+  font-family: Avenir;
+  color: #ffffff;
+  background-image: url("images/background_home.png");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+nav > a {
+text-decoration: none;
+color: #ffffff;
+font-size: 16px;
+padding-bottom: 5px;
+}
+
+a:hover {
+border-bottom: 2px solid #ffffff;
+
+}
+
+
+h1 {
+  font-family: "Gill Sans";
+  font-weight: 100;
+  font-size: 44px;
+  line-height: 20px;
+}
+
+h2 {
+  color: #777777;
+  font-family: Consolas;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+
+main {
+  margin: 20px 0;
+}
+
+span.letter {
+  font-size: 80px;
+  font-family: "Gill Sans";
+  font-weight: lighter;
+  color: #DDDDDD;
+  float: left;
+  padding: 0 15px 0 0;
+  margin: -10px 0;
+}
+
+span {
+  font-family: "Gill Sans";
+  font-weight: lighter;
+  color: #DDDDDD;
+}
+
+article {
+  margin-top: 80px;
+  border-bottom: 2px solid #DDDDDD;
+}
+
+img {
+  width: 100%;
+}
+
+footer > p {
+color: #DDDDDD;
+padding: 0;
+margin: 0;
+}
+
+.footer {
+display: flex;
+flex-direction: row;
+padding: 40px 0 15px 0;
+}
+
+div > a {
+text-decoration: none;
+color: #DC2F2C;;
+font-size: 16px;
+/*margin-right:  5px;*/
+padding: 0 6px;
+border-right: 2px solid #DDDDDD;
+}
