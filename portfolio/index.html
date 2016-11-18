@@ -1,0 +1,131 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Juliet Berman</title>
+
+	<link rel="stylesheet" type="text/css" href="../jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" type="text/css" href="fullpage.css" />
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="../jquery.fullPage.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("#demosMenu").change(function(){
+		  window.location.href = $(this).find("option:selected").attr("id") + '.html';
+		});
+	});
+	</script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				anchors: ['start-info', 'about-info', 'portfolio-info', 'contact-info'],
+				menu: '#menu',
+				scrollingSpeed: 800,
+				slidesNavigation: true
+
+
+			});
+		});
+	</script>
+
+</head>
+<body>
+
+
+<div id="fullpage">
+	<div class="section" id="section0">
+		<div>
+			<h1>Juliet M. Berman</h1>
+			<p><span>&#60;!-- Full stack web developer --></span></p>
+		</div>
+	</div>
+
+	<div class="section" id="section1">
+		<div class="intro">
+			<h1>About Me</h1>
+			<section>
+				<div class="circle"><img src="../images/headshot.jpg"/></div>
+				<div class="text">Web developer with a background in strategic planning and graphic design. A life-long learner and intellectually curious, I am always seeking new challenges. I derive immense satisfaction solving technical problems, and have a passion for creating beautiful things through technology.<br/><br/>
+
+				When I'm not coding, you can find me horseback riding, discovering new TV shows, or tackling a crossword puzzle.</div>
+		</section>
+		</div>
+	</div>
+
+	<div class="section" id="section2">
+		<div class="slide" id="slide1" data-anchor="slide1">
+			<div class="intro">
+				<h1>Portfolio</h1>
+				<p>Checkout what I've created! Coding projects planned and coded as a part of General Assembly's full-time 12-week Web Development Immersive program.</p>
+
+			</div>
+    </div>
+
+    <div class="slide" id="slide2" data-anchor="slide2">
+			<div class="intro">
+
+					<div class="circle center"><img src="../images/simonsays.png"/></div>
+					<h2>iSimon Says</h2>
+					<div class="subtext"><p>JavaScript game using jQuery library. Program logic randomly generates a sequence of different colors. The player's goal is to successfully repeat the sequence in this test of memory.</p></div>
+
+			</div>
+		</div>
+
+    <div class="slide" id="slide3" data-anchor="slide3">
+			<div class="intro">
+					<div class="circle center"><img src="../images/hangman.png"/></div>
+					<h2>Hangman</h2>
+					<div class="subtext"><p>Classic game for two, written in JavaScript and utilizing DOM manipulation. Clean, modular code allows for easy customization of features, including timer-based scoring and tracking the number of guesses remaining.</p></div>
+			</div>
+		</div>
+
+    <div class="slide" id="slide4" data-anchor="slide4">
+			<div class="intro">
+					<div class="circle center"><img src="../images/travel_app.png"/></div>
+					<h2>Travel App</h2>
+					<div class="subtext"><p>Ruby on Rails 4-model full-stack application with complete RESTful routes and full CRUD capabilities. Focused on common best practices in object-oriented programming, MVC frameworks, and data modeling.</p></div>
+			</div>
+		</div>
+  </div>
+
+
+	<div class="section" id="section3">
+		<div class="intro">
+			<h1>Contact</h1>
+			<section>
+
+				<div class="icon">
+				<a href="https://drive.google.com/file/d/0B6pkVD_An-q-NXdLUnFfVlQ1SEk/view" target="_blank">
+						<div id="resume">
+							<img src="../images/resume_icon.png"/>
+						</div>
+					</a>
+				</div>
+
+				<div class="icon">
+				<a href="mailto:berman.juliet@gmail.com">
+						<div id="email">
+							<img src="../images/email_icon.png"/>
+						</div>
+					</a>
+				</div>
+
+				<div class="icon">
+				<a href="http://twitter.com/julietdonttweet" target="_blank">
+						<div id="twitter">
+							<img src="../images/twitter_icon.png"/>
+						</div>
+					</a>
+				</div>
+
+			</section>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
