@@ -3066,7 +3066,7 @@
          * content in order to facilitate overflow scrolling.
          *
          * @return {String|Object} Can be a string containing HTML,
-         *                         a DOM element, or jQuery object.
+         *                         a DOM element or jQuery object.
          */
         wrapContent: function() {
             return '<div class="' + SCROLLABLE + '"><div class="fp-scroller"></div></div>';
