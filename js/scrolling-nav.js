@@ -12,7 +12,7 @@ $(function() {
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
-            scrollTop: $($anchor.attr('class')).offset().top
+            scrollTop: $($anchor.attr('id')).offset().top
         }, 600, 'easeInOutExpo');
         event.preventDefault();
     });
