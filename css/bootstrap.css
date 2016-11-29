@@ -62,13 +62,13 @@ textarea {
 
 }
 a {
-  color: #337ab7;
+  color: #3B688D;
   text-decoration: none;
 }
 a:hover,
 a:focus {
   color: #23527c;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:focus {
   outline: 5px auto -webkit-focus-ring-color;
@@ -1636,7 +1636,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #5e5e5e;
+  color: #3B688D;
   background-color: transparent;
 }
 .navbar-default .navbar-text {
@@ -1645,7 +1645,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > li > a {
   color: #777;
 }
-.navbar-default .navbar-nav > li > a:hover{
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
   color: #3B688D;
   background-color: transparent;
 }

@@ -38,7 +38,7 @@ h3{
 }
 
 p{
-	font-size: 1.4em;
+	font-size: 1.3em;
   margin: 10px;
 }
 
@@ -76,7 +76,7 @@ section{
 
 }
 
-span{
+#webfont{
  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
  font-family: Consolas;
  font-style: italic;
@@ -151,9 +151,13 @@ div.icon{
   overflow:hidden;
 }
 
+
+
 div.icon img{
-  width: 150px;
+  width: 100px;
 }
+
+
 
 
 div#email:hover:after{
@@ -216,6 +220,11 @@ div#twitter:hover:after{
   align-items: center;
   margin-top: 80px;
 }
+.item > p {
+  background: rgba(255, 255, 255, .6);
+  border-radius: 10px;
+  padding: 10px;
+}
 
 #port{
     margin-top: 100px;
@@ -230,7 +239,7 @@ div#twitter:hover:after{
 
     .intro p, span{
     	width: 90%;
-    	font-size: 1.1em;
+    	font-size: 1em;
 
     }
 
@@ -281,11 +290,14 @@ div#twitter:hover:after{
       margin-top:5px;
     }
 
-    #port{
-        margin-top: 80px;
+    .navbar-nav > li > a {
+      padding-top: 20px;
+      padding-bottom: 5px;
     }
 
-}
+    #port{
+        margin-top: 50px;
+    }
 
 @media(min-width:820px) {
     .navbar {
